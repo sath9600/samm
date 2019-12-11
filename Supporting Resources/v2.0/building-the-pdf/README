@@ -2,10 +2,10 @@ The `samm2-yaml2pdf.tgz` archive contains all you need to build the pdf. You do 
 
 It is self-contained, type make to create the `samm2.pdf` book.
 
-The main driver script is `make_pdf.sh`
+  - The script for creating a pdf is `make_pdf.sh`. Until we figure out how to create a table of contents without fuss, run bin/make_pdf_with_toc.sh after make_pdf.sh has run correctly.
+  - The script for creating web pages is `make_web.sh`
 
-The archive was generated using `make release.`
-
+The bundled source code archive was generated using `make release.`
 
 # Overview
 
@@ -16,7 +16,6 @@ The current flow is:
   - yaml + templating + namespacing + namespace to template mapping -> markdown via a custom script
   - markdown + css -> html (via pandoc)
   - html -> pdf (via pandoc using wkhtmltopdf driver)
-
 
 The pdf is currently rendered from the yaml model content files using the following flow:
 
@@ -59,7 +58,7 @@ Look into the yaml file for any model object to find the corresponding `item` na
 
 # Running the code
 The code is in samm2-yaml2pdf.tgz
-Extract it, update the Datafiles from a master branch, then run ./make_pdf.sh (or just type make)
+Extract it, update the Datafiles from a master branch, then run ./make_pdf.sh (optionally followed by ./bin/make_pdf_with_toc.sh) or .make_web.sh
 The pdf will be in pdf/samm2.pdf
 
 You'll probably need to pull a bunch of dependencies to get the code working though. Will bundle it as a docker image once there's sufficient need.
