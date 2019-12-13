@@ -16,7 +16,7 @@ id:
 
 #One-sentence description of the criterium
 text: 
-  Do you thoroughly review your software architecture regularly using an agreed upon methodology?
+  Do you review your software architecture regularly using an agreed upon methodology?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -28,3 +28,6 @@ quality:
   - You verify the architecture meets all the defined security requirements
   - You verify every component is protected by the expected security controls (e.g., authentication, authorization, logging)
   - You log missing security controls as defects
+
+#Type Classification of the Document
+type: Question

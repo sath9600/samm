@@ -1,10 +1,10 @@
 # ===========================================================
-# OWASP SAMM2 Answer Set - P
+# OWASP SAMM2 Answer Set - T
 # ===========================================================
 #Unique identifier (GUID) used to refer to this maturity level. 
 #Please generate another identifier for your specific maturity level.
 id:
-  01b2ac64461d4ec6b40843a4c77e1ba6
+  991164a3daba483fb22289f8e831eed1
 
 #Different answers with their properties. We use 4 levels or answers
 values: 
@@ -14,17 +14,17 @@ values:
     weight: 1
     order: 0
   - #second level
-    text: 'Yes, but review is ad-hoc'
+    text: 'Yes, for some key components'
     value: 0.25
     weight: 1
     order: 1
   - #third level
-    text: 'Yes, we review it every two years or so'
+    text: 'Yes, for at least half of the key components'
     value: 0.5
     weight: 1
     order: 2
   - #highest level
-    text: 'Yes, we review it at least annually'
+    text: 'Yes, for most or all of the key components'
     value: 1
     weight: 1
     order: 3

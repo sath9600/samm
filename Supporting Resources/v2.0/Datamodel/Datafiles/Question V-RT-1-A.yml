@@ -3,20 +3,20 @@
 # ===========================================================
 #Link to the activity that this question helps measure
 activity:
-  d975bb1ce1dd4d61a6039b0a4a05926e
+  99989f86dabc4a7a87fbe6a274c99ca3
 
 #Link to the answer set that contains the potential answers for this question  
 answerset:
-  d096060a4d864133afcbdd1397b95827
+  8c89e8daf71d425abaca53edc01f6afa
 
 #Unique identifier (GUID) used to refer to this maturity level. 
 #Please generate another identifier for your specific maturity level.
 id:
-  814caca2fc5241dcb90c48302ac031b2
+  cb085e0a25724700bc10c73cfcc8f6a5
 
 #One-sentence description of the criterium
 text: 
-  Do you perform denial of service and security stress testing?
+  Do you test applications for the correct functioning of standard security controls?
 
 #Order of this question for the activity (in case there would be multiple)
 order:
@@ -24,5 +24,8 @@ order:
 
 #Qualifying Criterion
 quality:
-  - Stress tests target specific application resources (e.g. memory exhaustion by saving large amounts of data to a user session)
-  - You design tests around relevant personas with well-defined capabilities (knowledge, resources)
+  - Security testing at least verifies the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls.
+  - Security testing executes whenever the application changes its use of the controls.
+
+#Type Classification of the Document
+type: Question
