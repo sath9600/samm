@@ -1,3 +1,0 @@
----
-title: SAMM Head
----
