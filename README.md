@@ -25,7 +25,7 @@ Please see guidance here: [/Current Releases/head/contributing-to-git.md](https:
 
 ## Custom Development
 * Install hugo or pull a hugo docker image
-* Clone this repo
-* Change directory to _Website/hugo_
+* Clone this repo and its submodules: `git clone --recursive https://github.com/OWASP/samm.git`
+* Change directory to _Website/_
 * Execute `hugo server`
 
