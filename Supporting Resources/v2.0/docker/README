@@ -1,0 +1,7 @@
+Here's how I build the docker image:
+
+docker build --build-arg userid=1000 --build-arg groupid=1000 -t nessimk/samm2yaml2pdf:latest .
+
+You might want to change the userid and groupid args to match your local uid/gid
+
+We could probably do with shrinking the image a little. You can save about 25 Mb by && a few of the operations at the expense of readability.
