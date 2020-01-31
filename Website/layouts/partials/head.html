@@ -64,5 +64,24 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .URL }}/" />
   <meta property="og:image" content="{{ .Site.Params.logo }}" />
+  
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#66b8b8"
+      },
+      "button": {
+        "background": "#366867"
+      }
+    },
+    "content": {
+      "message": "We use cookies mainly to analyze traffic. Some video providers may also use them.",
+      "href": "https://www2.owasp.org/www-policy/operational/privacy"
+    }
+  });
+  </script>
 
 </head>
