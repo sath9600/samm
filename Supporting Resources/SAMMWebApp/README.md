@@ -1,4 +1,4 @@
-# OWASP SAMM 2.0 Trial Repo
+# OWASP SAMM 2.0
 
 <p align="center"><a href="https://owasp.org" target="_blank" rel="noopener noreferrer"><img width="100" src="src/favicon.ico" alt="OWASP logo"></a></p>
 
